@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huokaing Thara Recruitment Agency | ភ្នាក់ងារជ្រើសរើសពលករ ហួកាំងថារ៉ា</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Kantumruy+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="logo-container">
+            <div class="logo-icon">
+                <img src="recruitment_logo.jpg" alt="Huokaing Thara Logo" onerror="this.src='https://via.placeholder.com/44?text=HT'">
+            </div>
+            <div class="logo-text">
+                <h1 data-km="ភ្នាក់ងារជ្រើសរើសពលករ ហួកាំងថារ៉ា" data-en="Huokaing Thara Recruitment Agency">ភ្នាក់ងារជ្រើសរើសពលករ ហួកាំងថារ៉ា</h1>
+                <span data-km="សេចក្តីប្រកាសព័ត៌មានថ្នាក់ដឹកនាំ" data-en="Executive Leadership Announcement">សេចក្តីប្រកាសព័ត៌មានថ្នាក់ដឹកនាំ</span>
+            </div>
+        </div>
+
+        <nav class="nav-links">
+            <a href="#hero" class="active" data-km="ទំព័រដើម" data-en="Home">ទំព័រដើម</a>
+            <a href="#jobs" data-km="ឱកាសការងារ" data-en="Jobs">ឱកាសការងារ</a>
+            <a href="#about" data-km="អំពីយើង" data-en="About Us">អំពីយើង</a>
+            <a href="#contact" data-km="ទំនាក់ទំនង" data-en="Contact">ទំនាក់ទំនង</a>
+        </nav>
+
+        <div class="header-actions">
+            <button id="lang-toggle" class="lang-btn">
+                🌐 <span id="lang-text">English</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="badge" data-km="⚡ ស្វែងរកការងារក្នុងក្ដីស្រមៃរបស់អ្នក" data-en="⚡ Find Your Dream Career">⚡ ស្វែងរកការងារក្នុងក្ដីស្រមៃរបស់អ្នក</div>
+            <h2 data-km="កសាងអនាគតការងារដ៏ភ្លឺស្វាងជាមួយ ហួកាំងថារ៉ា" data-en="Build Your Professional Future with Huokaing Thara">កសាងអនាគតការងារដ៏ភ្លឺស្វាងជាមួយ ហួកាំងថារ៉ា</h2>
+            <p data-km="យើងខ្ញុំភ្ជាប់ទំនាក់ទំនងរវាងបេក្ខជនដែលមានសមត្ថភាព និងក្រុមហ៊ុនឈានមុខគេទាំងក្នុង និងក្រៅប្រទេស ប្រកបដោយភាពស្មោះត្រង់ និងទំនុកចិត្តខ្ពស់។" data-en="We connect top talent with leading enterprises locally and internationally with trust, efficiency, and integrity.">យើងខ្ញុំភ្ជាប់ទំនាក់ទំនងរវាងបេក្ខជនដែលមានសមត្ថភាព និងក្រុមហ៊ុនឈានមុខគេទាំងក្នុង និងក្រៅប្រទេស ប្រកបដោយភាពស្មោះត្រង់ និងទំនុកចិត្តខ្ពស់។</p>
+            <div class="hero-buttons">
+                <a href="#jobs" class="btn btn-primary" data-km="មើលការងារទំនេរ" data-en="Explore Open Roles">មើលការងារទំនេរ</a>
+                <a href="#contact" class="btn btn-outline" data-km="ពិគ្រោះយោបល់" data-en="Get Consultation">ពិគ្រោះយោបល់</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Listings & Filtering -->
+    <section id="jobs" class="jobs-section">
+        <div class="section-header">
+            <h2 data-km="ឱកាសការងារកំពុងជ្រើសរើស" data-en="Featured Career Opportunities">ឱកាសការងារកំពុងជ្រើសរើស</h2>
+            <p data-km="ជ្រើសរើស និងដាក់ពាក្យធ្វើការលើជំនាញដែលត្រូវនឹងសមត្ថភាពរបស់អ្នក" data-en="Filter and apply for positions matching your qualifications">ជ្រើសរើស និងដាក់ពាក្យធ្វើការលើជំនាញដែលត្រូវនឹងសមត្ថភាពរបស់អ្នក</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-bar">
+            <input type="text" id="search-input" placeholder="ស្វែងរកតាមចំណងជើងការងារ..." data-km-placeholder="ស្វែងរកតាមចំណងជើងការងារ..." data-en-placeholder="Search job title...">
+            
+            <select id="category-filter">
+                <option value="all" data-km="គ្រប់វិស័យទាំងអស់" data-en="All Categories">គ្រប់វិស័យទាំងអស់</option>
+                <option value="Customer Service" data-km="សេវាកម្មអតិថិជន" data-en="Customer Service">សេវាកម្មអតិថិជន</option>
+                <option value="Entertainment" data-km="សិល្បៈ & កម្សាន្ត" data-en="Entertainment">សិល្បៈ & កម្សាន្ត</option>
+                <option value="Education" data-km="អប់រំ & ភាសា" data-en="Education">អប់រំ & ភាសា</option>
+                <option value="IT" data-km="បច្ចេកវិទ្យាព័ត៌មាន" data-en="Information Technology">បច្ចេកវិទ្យាព័ត៌មាន</option>
+                <option value="Banking" data-km="ធនាគារ & ហិរញ្ញវត្ថុ" data-en="Banking & Finance">ធនាគារ & ហិរញ្ញវត្ថុ</option>
+            </select>
+        </div>
+
+        <!-- Job Cards Grid -->
+        <div class="jobs-grid" id="jobs-container">
+            <!-- Dynamic jobs populated by JS -->
+        </div>
+    </section>
+
+    <!-- Application Modal -->
+    <div id="app-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal">&times;</span>
+            <h3 id="modal-job-title">Job Title</h3>
+            <p id="modal-job-company" class="company-sub"></p>
+            
+            <form id="apply-form">
+                <div class="form-group">
+                    <label data-km="ឈ្មោះពេញ" data-en="Full Name">ឈ្មោះពេញ</label>
+                    <input type="text" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label data-km="លេខទូរស័ព្ទ / Telegram" data-en="Phone / Telegram">លេខទូរស័ព្ទ / Telegram</label>
+                    <input type="text" required placeholder="012 345 678">
+                </div>
+                <div class="form-group">
+                    <label data-km="អ៊ីមែល" data-en="Email Address">អ៊ីមែល</label>
+                    <input type="email" required placeholder="candidate@email.com">
+                </div>
+                <div class="form-group">
+                    <label data-km="ភ្ជាប់ប្រវត្តិរូបសង្ខេប (CV)" data-en="Upload CV / Resume">ភ្ជាប់ប្រវត្តិរូបសង្ខេប (CV)</label>
+                    <input type="file" accept=".pdf,.doc,.docx" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block" data-km="ផ្ញើពាក្យសុំធ្វើការ" data-en="Submit Application">ផ្ញើពាក្យសុំធ្វើការ</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-card">
+            <h2 data-km="អំពី ភ្នាក់ងារជ្រើសរើសពលករ ហួកាំងថារ៉ា" data-en="About Huokaing Thara Recruitment Agency">អំពី ភ្នាក់ងារជ្រើសរើសពលករ ហួកាំងថារ៉ា</h2>
+            <p data-km="ភ្នាក់ងារជ្រើសរើសពលករ ហួកាំងថារ៉ា គឺជាដៃគូដ៏ស្មោះត្រង់ក្នុងការផ្តល់សេវាកម្មជ្រើសរើសបុគ្គលិក និងពិគ្រោះយោបល់ការងារ។ យើងខ្ញុំប្តេជ្ញាជួយបំពេញតម្រូវការទីផ្សារពលកម្មទាំងក្នុងស្រុក និងអន្តរជាតិ ដោយផ្អែកលើស្តង់ដារវិជ្ជាជីវៈខ្ពស់ ភាពត្រឹមត្រូវ និងភាពស្មោះត្រង់។" data-en="Huokaing Thara Recruitment Agency is a trusted recruiting and career advisory agency. We are dedicated to bridging employment demands locally and internationally through standard professionalism, integrity, and client satisfaction.">ភ្នាក់ងារជ្រើសរើសពលករ ហួកាំងថារ៉ា គឺជាដៃគូដ៏ស្មោះត្រង់ក្នុងការផ្តល់សេវាកម្មជ្រើសរើសបុគ្គលិក និងពិគ្រោះយោបល់ការងារ។ យើងខ្ញុំប្តេជ្ញាជួយបំពេញតម្រូវការទីផ្សារពលកម្មទាំងក្នុងស្រុក និងអន្តរជាតិ ដោយផ្អែកលើស្តង់ដារវិជ្ជាជីវៈខ្ពស់ ភាពត្រឹមត្រូវ និងភាពស្មោះត្រង់។</p>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact">
+        <div class="footer-container">
+            <div>
+                <h3>Huokaing Thara Recruitment</h3>
+                <p data-km="រាជធានីភ្នំពេញ, ព្រះរាជាណាចក្រកម្ពុជា" data-en="Phnom Penh, Kingdom of Cambodia">រាជធានីភ្នំពេញ, ព្រះរាជាណាចក្រកម្ពុជា</p>
+                <p>Phone: +855 (0) 12 345 678</p>
+                <p>Telegram: @HuokaingTharaRecruitment</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Huokaing Thara Recruitment Agency. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
